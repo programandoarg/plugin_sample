@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = PluginSample::VERSION
   spec.authors     = ["Martín Rosso"]
   spec.email       = ["mrosso10@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of PluginSample."
-  spec.description = "TODO: Description of PluginSample."
+  spec.homepage    = ""
+  spec.summary     = "Summary of PluginSample."
+  spec.description = "Description of PluginSample."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rails", "~> 5.2.2", ">= 5.2.2.1"
 
-  spec.add_development_dependency "sqlite3"
+  spec.add_development_dependency "sqlite3", "~> 1.3.12"
 end
