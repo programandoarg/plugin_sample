@@ -54,6 +54,11 @@ GEM
     crass (1.0.4)
     diff-lcs (1.3)
     erubi (1.8.0)
+    factory_bot (5.0.2)
+      activesupport (>= 4.2.0)
+    factory_bot_rails (5.0.1)
+      factory_bot (~> 5.0.0)
+      railties (>= 4.2.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.6.0)
@@ -138,6 +143,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  factory_bot_rails
   plugin_sample!
   rspec-rails
   sqlite3 (~> 1.3.12)
